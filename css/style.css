@@ -1,0 +1,141 @@
+/* section 2*/
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url("../images/video-image.jpg");
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+
+.cover.content {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+
+.cover.content>h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6vmin;
+    color: whitesmoke;
+
+}
+
+.numbers.rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.39);
+}
+
+html,
+body,
+#map-canvas {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map-canvas {
+    height: 75%;
+    width: 75%;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.modal-login {
+    color: #636363;
+    width: 350px;
+}
+
+.modal-login .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.modal-login .modal-header {
+    border-bottom: none;
+    position: relative;
+    justify-content: center;
+}
+
+.modal-login h4 {
+    text-align: center;
+    font-size: 26px;
+}
+
+.modal-login .form-group {
+    position: relative;
+}
+
+.modal-login i {
+    position: absolute;
+    left: 13px;
+    top: 11px;
+    font-size: 18px;
+}
+
+.modal-login .form-control {
+    padding-left: 40px;
+}
+
+.modal-login .form-control:focus {
+    border-color: #dddada;
+}
+
+.modal-login .form-control,
+.modal-login .btn {
+    min-height: 40px;
+    border-radius: 3px;
+}
+
+.modal-login .hint-text {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.modal-login .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.modal-login .btn,
+.modal-login .btn:active {
+    border: none;
+    background: #bf0039 !important;
+    line-height: normal;
+}
+
+.modal-login .btn:hover,
+.modal-login .btn:focus {
+    background: #bf0039 !important;
+}
+
+.modal-login .modal-footer {
+    background: #ecf0f1;
+    border-color: #dee4e7;
+    text-align: center;
+    margin: 0 -20px -20px;
+    border-radius: 5px;
+    font-size: 13px;
+    justify-content: center;
+}
+
+.modal-login .modal-footer a {
+    color: #999;
+}
+
+.trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+}
